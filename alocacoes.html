@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Senac | Alocações</title>
+	<link href="css/normalize.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/reset.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="css/titulo.css">
+	<link rel="stylesheet" href="css/cabecalho.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/filtros.css">
+	<link rel="stylesheet" href="css/tabela.css">
+	<link rel="stylesheet" href="css/footer.css">
+
+</head>
+
+<body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+        <header class="cabecalho">
+            <img alt="Logo Senac" class="logo" src="./img/logo.png"/>
+            <nav alt="Menu de navegação" class="menu">
+                <ul class="menu__lista">
+                    <li alt="Home" class="menu__item"><a class="menu__link " href="inicial.html"><div class="menu__link--ativo">Home</div></a></li>
+                    <li alt="Alocações" class="menu__item"><a class="menu__link" href="#">Alocações</a></li>
+                    <li alt="Professores" class="menu__item"><a class="menu__link" href="#">Professores</a></li>
+                    <li alt="Cursos" class="menu__item"><a class="menu__link" href="#">Cursos</a></li>
+                </ul>
+            </nav>
+        </header>
+	<main class="">
+		<div class="container-titulo">
+		<section alt="Seção" class="titulo">
+			<p class="text-center">
+			<h1 class="">
+				<a href="#">Alocações</a>
+			</h1>
+			</p>
+		</section>
+		</div>
+		<section class="filtros">
+			<div class="filtro_nova-alocacao">
+				<button class="button_nova-alocacao">Nova alocação <img class="vetor_plus" src="./img/Vector.png"></button>
+			</div>
+			<div class="filtro_ordenar">
+				<button class="button_ordenar">Ordenar<img class="vector_dropdown" src="./img/Vector_dropdown.png"></button>
+			</div>
+			<div class="filtro_filtrar">
+				<button class="button_filtrar">Filtrar</button>
+			</div>
+		</section>
+		<section class="container table-responsive-xxl">
+			<table class="tabela table table-striped table-primary" alt="Tabela de alocações">
+				<thead class="cabecalho_tabela">
+					<tr alt="Categorias">
+						<th>Nome</th>
+						<th>Curso</th>
+						<th>Sala</th>
+						<th>Data</th>
+						<th>Turno</th>
+					</tr>
+				</thead>
+				<tbody alt="Conteúdo de alocações" id="tabela-alocacoes">
+					<tr  class="alocacao" id="primeira-alocacao">
+						<td class="info-nome">João da Silva</td>
+						<td class="info-curso">Téc. em Eletrônica</td>
+						<td class="info-sala">02 - Lab. Maker</td>
+						<td class="info-data">21/02/2022</td>
+						<td class="info-turno">Manhã</td>
+					</tr>
+
+					<tr class="alocacao">
+						<td class="info-nome">Maria Rezende</td>
+						<td class="info-curso">Téc. em Informática</td>
+						<td class="info-sala">08 - Lab. Informática</td>
+						<td class="info-data">10/03/2022</td>
+						<td class="info-turno">Tarde</td>
+					</tr>
+
+					<tr class="alocacoes" >
+						<td class="info-nome">Rosana Almeida</td>
+						<td class="info-curso">Téc. em Enfermagem</td>
+						<td class="info-sala">05 - Lab. Enfermagem</td>
+						<td class="info-data">12/03/2022</td>
+						<td class="info-turno">Noite</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section alt="Formulário de alocação" class="container">
+		    <h2 id="titulo-form">Adicionar nova alocação</h2>
+		    <form id="form-adiciona">
+		        <div class="">
+		            <label for="nome">Nome:</label>
+		            <input alt="Campo de Nome" id="nome" name="nome" type="text" placeholder="" class="campo">
+		        </div>
+		        <div class="grupo">
+		            <label for="curso">Curso:</label>
+		            <input id="curso" name="curso" type="text" placeholder="" class="campo campo-medio">
+		        </div>
+		        <div class="grupo">
+		            <label for="sala">Sala:</label>
+		            <input id="sala" name="sala" type="text" placeholder="" class="campo campo-medio">
+		        </div>
+		        <div class="grupo">
+		            <label for="data">Data:</label>
+		            <input id="data" type="date" placeholder="" class="campo campo-medio">
+		        </div>
+		        <div class="grupo">
+		            <label for="turno">Turno:</label>
+		            <input id="turno" type="text" placeholder="" class="campo campo-medio">
+		        </div>
+
+		        <button id="adicionar" class="botao bto-principal">Adicionar</button>
+		    </form>
+		</section>
+		<script src="js/form.js" ></script>
+	</main>
+	<footer>
+		<div class="footer">
+			<div class="footer-container">
+			<img class="segundologo" src="./img/footer_logo.jpg">
+			<h3>Todos os direitos reservados</h3>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

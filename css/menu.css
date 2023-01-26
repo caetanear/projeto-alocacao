@@ -1,0 +1,37 @@
+
+.menu__item {
+    list-style: none;
+    justify-items: space-between;
+    padding: 5px 5px 10px 5px;
+}
+
+.menu__link {
+    font-family: 'Tahoma';
+    color: #1D478C;
+    text-align: center;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.menu__link--ativo {
+    width: 100px;
+    color: #EF8B2A;
+    font-weight: bold;
+    box-shadow: #EF8B2A;
+    border-bottom: solid 2.5px #EF8B2A;
+}
+
+.menu__link:hover {
+    color: #EF8B2A;
+    cursor: pointer;
+}
+
+.menu__lista {
+    display: flex;
+    float: right;
+}

@@ -1,0 +1,6 @@
+cores:
+preto: #1E1E1E 100%
+azul: #1D478C
+laranja: #EF8B2A
+fundo branco: #FFFFFF
+ TOP RIGHT LEFT BOTTOM

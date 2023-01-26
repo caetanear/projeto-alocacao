@@ -1,0 +1,111 @@
+.container{
+	width: 60%;
+	height: 100%;
+	margin-top: 250px;
+}
+
+
+section h2{
+	font-size: 3em;
+	display: block;
+	padding-bottom: .5em;
+	margin-bottom: .5em;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+	border-radius: 50%;
+	border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.grupo{
+	width: 32%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+.botao{
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color:#163A75;
+	border-color: #04324c;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px 45px 0px;
+	border-radius: 1rem;
+}
+
+.botao:active{
+	margin-top:0px;
+	border: 0;
+}
+
+.botao[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+
+table {
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:6px;
+}
+
+td, th {
+    border-left:transparent rgb(252, 252, 252) 1px;
+    border-top:transparent rgb(255, 255, 255) 1px;
+}
+
+th {
+    background-color: #163A75;
+    border-top: none;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
+

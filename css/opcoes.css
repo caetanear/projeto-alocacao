@@ -1,0 +1,63 @@
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.opcoes {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.opcoes-lista {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.opcoes-link {
+	font-family: 'Tahoma';
+	height: 60px;
+	background-color: #1D478C;
+	text-align: center;
+	top: 150px;
+	position: relative;
+	font-size: 25px;
+	width: 20%;
+	border-radius: 15px;
+	margin-left: 720px;
+	margin-top: 3rem;
+}
+
+.opcoes-link a {
+	text-decoration: none;
+	color: #FFFFFF;
+	height: 60px;
+	display: inline-block;
+	padding: 1rem 0.35rem;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	position: inherit;
+	z-index: 10;
+}
+
+@media screen and (max-width: 900px) {
+    .opcoes-lista {
+        float: left;
+        display: flex;
+    }
+    .opcoes-link {
+	height: 70px;
+	text-align: center;
+	top: 150px;
+	position: relative;
+	width: 85%;
+	border-radius: 30px;
+	margin-left: 120px;
+	margin-top: 3rem;
+	font-size: 25px;
+	}
+	.opcoes-link a {
+	padding: 1.5rem 0.35rem;
+	}
+}
