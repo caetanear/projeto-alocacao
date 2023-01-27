@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
 }
-
+/*NOVA ALOCAÇÃO*/
 .filtro_nova-alocacao{
     position: absolute;
     width: 204px;
@@ -29,6 +29,7 @@
     padding-left: 1rem;
 }
 
+/*ORDENAR*/
 .filtro_ordenar{
     display: flex;
     flex-direction: column;
@@ -39,23 +40,10 @@
     position: absolute;
     width: 256px;
     height: 364px;
-    left: 900px;
+   /* left: 900px;*/
+    float: right;
     top: 300px;
-}
-
-.filtro_filtrar{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 4px;
-
-    position: absolute;
-    width: 256px;
-    height: 364px;
-    right: 2rem;
-    top: 300px;
-    box-shadow: none;
+    right: 12rem;
 }
 
 .button_ordenar{
@@ -97,7 +85,23 @@
     margin-top: 0.70rem;
 }
 
-.button_filtrar{
+/*FILTRAR*/
+.filtro_filtrar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    position: absolute;
+    width: 256px;
+    height: 364px;
+    right: 2rem;
+    top: 225px;
+    box-shadow: none;
+    float: right;
+}
+/*.button_filtrar{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -110,4 +114,56 @@
     box-shadow: none;
 
     color: #FFFFFF;
+}*/
+
+/*BARRA BUSCAR*/
+.barraBuscar {
+	background-color: #fdfdfd;
+	padding-top: 20px;
+	margin-top: 20px;
+	text-align: center;
+    width: 25%;
+    right: 2rem;
+    float: right;
+
+}
+
+.barraBuscar label[for=buscar-palavra] {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.barraBuscar-palavraInput {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px;
+}
+
+.barraBuscar-submit {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #004587;
+	color: #FFF;
+	cursor: pointer;
+	
+}
+
+.barraBuscar-submit,
+.barraBuscar-palavraInput {
+	outline: 0;
+	border: 1px solid #004587;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.barraBuscar-legend {
+	margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.barraBuscar-fieldset {
+	display: flex;
 }
