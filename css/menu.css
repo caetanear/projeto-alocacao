@@ -19,7 +19,7 @@
 }
 
 .menu__link--ativo {
-    width: 100px;
+    width: 150px;
     color: #EF8B2A;
     font-weight: bold;
     box-shadow: #EF8B2A;
@@ -34,4 +34,20 @@
 .menu__lista {
     display: flex;
     float: right;
+}
+
+.menu__link--outros {
+    width: 150px;
+    color: #1D478C;
+    font-weight: bold;
+    box-shadow: #1D478C;
+    border-bottom: solid 2.5px #1D478C;
+    padding-right: 2px;
+}
+
+.menu__link--outros:hover {
+    color: #EF8B2A;
+    cursor: pointer;
+    box-shadow: #EF8B2A;
+    border-bottom: solid 2.5px #EF8B2A;
 }

@@ -1,4 +1,4 @@
-@media screen and (min-width: 577px) {
+
 .titulo{
 	width: 1440px;
 	height: 60px;
@@ -37,19 +37,19 @@
 	text-align: center;
 }
 
-.titulo-1{
+/*TITULO INICIAL*/
+.titulo-inicial{
 	width: 1440px;
 	height: 60px;
 	top: 200px;
-	left: 1200px;
 
     margin-right: .7rem;
     margin-bottom: 1.25rem;
-    margin-left: 240px;
+    margin-left: 230px;
 	font-family: 'Tahoma';
 	font-style: normal;
 	font-weight: bolder;
-	font-size: 80px;
+	font-size: 50px;
 	line-height: 83px;
 	color: #1D478C;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -61,23 +61,7 @@
     padding-top: 2rem;
     padding-bottom: 0.75rem;
 }
-
-.container-titulo{
-	display: flex;
-	flex-direction: row;
-	align-content: space-around;
-	align-self: center;
-	padding-left: 5rem;
-}
-
-.titulo-1 a{
+.titulo-inicial a{
 	text-decoration: none;
 	color: #1D478C;
-	text-align: center;
-}
-
-#titulo-form{
-	color: #1D478C;
-}
-
 }
