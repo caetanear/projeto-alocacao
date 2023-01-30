@@ -13,7 +13,7 @@ botaoAdicionar.addEventListener("click", function(event) {
       headers: {"Content-type": "application/json; charset=UTF-8"}
     })
     .then(response => response.json()) 
-    .then(json => console.log(json));
+    .then(json => console.log(json))
     .catch(err => console.log(err));
     // FIM DO MÉTODO
     
