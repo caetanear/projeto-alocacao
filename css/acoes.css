@@ -11,11 +11,17 @@
 .button_excluir{
    background-color: #FF0000;
    border-style: none;
+   border-radius: 15px;
+
+   cursor: pointer;
 }
 
 .button_editar{
     background-color: #EF8B2A;
     border-style: none;
+    border-radius: 15px;
+
+    cursor: pointer;
 }
 
 .vector_delete{
