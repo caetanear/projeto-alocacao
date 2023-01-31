@@ -1,0 +1,6 @@
+.info-acoes{
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+
+}
