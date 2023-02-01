@@ -47,7 +47,7 @@ function montaTr(alocacao) {
     alocacaoTr.appendChild(montaTd(alocacao.sala, "info-sala"));
     alocacaoTr.appendChild(montaTd(alocacao.data, "info-data"));
     alocacaoTr.appendChild(montaTd(alocacao.turno, "info-turno"));
-    alocacaoTr.appendChild(montaTd(alocacao.turno, "info-acoes"));
+    alocacaoTr.appendChild(montaTd(alocacao.acoes, "info-acoes"));
 
 
     return alocacaoTr;
