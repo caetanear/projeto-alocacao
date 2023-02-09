@@ -1,11 +1,14 @@
 .info-acoes{
     display: flex;
     flex-direction: row;
-    align-content: space-evenly;
+
+    justify-content: center;
+
 }
 
 .acoes_excluir{
-    padding-left: 20%;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .button_excluir{
@@ -14,6 +17,8 @@
    border-radius: 10px;
 
    cursor: pointer;
+
+   display: inline;
 }
 
 .button_editar{
@@ -22,6 +27,8 @@
     border-radius: 10px;
 
     cursor: pointer;
+
+    display: inline;
 }
 
 .vector_delete{

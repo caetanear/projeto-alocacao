@@ -1,6 +1,6 @@
-var botaoEnter = document.querySelector("#barra-enter");
+var botaoEnter = document.getElementById("#barra-enter");
 
-var input = document.querySelector("#buscar-palavra");
+var input = document.getele("#buscar-palavra");
 
 botaoEnter.addEventListener('click', function(event)){
     var buscar = input.search('');

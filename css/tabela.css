@@ -19,6 +19,7 @@ table{
 	border-radius: 50%;
 	border-collapse: collapse; /* IE7 and lower */
     border-spacing: 0;
+	align-content: center;
 }
 
 td, th {
@@ -26,6 +27,7 @@ td, th {
 	margin: 0;
 	border: 1px solid #ccc;
 	text-align: center;
+	align-items: center;
 }
 
 th{

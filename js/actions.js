@@ -1,4 +1,4 @@
-const itemsArray = localStorage.getItem('adicionar') ? JSON.parse(localStorage.getItem('adicionar')) : [];
+/*const itemsArray = localStorage.getItem('adicionar') ? JSON.parse(localStorage.getItem('adicionar')) : [];
 
 document.querySelector("#adicionar").addEventListener("click", () => {
   const item = document.querySelector("#adicionar")
@@ -88,3 +88,5 @@ function updateItem(text, i){
 window.onload = function() {
   displayItems()
 };
+*/
+
