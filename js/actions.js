@@ -1,4 +1,4 @@
-/*const itemsArray = localStorage.getItem('adicionar') ? JSON.parse(localStorage.getItem('adicionar')) : [];
+const itemsArray = localStorage.getItem('adicionar') ? JSON.parse(localStorage.getItem('adicionar')) : [];
 
 document.querySelector("#adicionar").addEventListener("click", () => {
   const item = document.querySelector("#adicionar")
@@ -11,13 +11,18 @@ function displayItems(){
   for(let i = 0; i < itemsArray.length; i++){
     adicionar += `<td class="info-acoes">
                   <textarea disabled>${itemsArray[i]}</textarea>                            ${itemsArray[i]}
-							<div class="acoes_excluir">
-								<button class="button_excluir"><img class="vector_delete" src="./img/Vector_lixinho.png"></button>
-							</div>
-							<div class="acoes_editar">
-								<button class="button_editar"><img class="vector_delete" src="./img/Vector_editar.png"></button>
-							</div>
-						</td>`
+                    <div class="acoes_excluir">
+                                    <button class="button_excluir">
+                    <span class="material-symbols-outlined">
+                    delete
+                    </span></button>
+                                  </div>
+                                  <div class="acoes_editar">
+                                    <button class="button_editar"><span class="material-symbols-outlined">
+                    edit_note
+                    </span></button>
+                                  </div>
+						      </td>`
   }
   document.querySelector(".info-acoes").innerHTML = items
   activateDeleteListeners()
@@ -88,5 +93,5 @@ function updateItem(text, i){
 window.onload = function() {
   displayItems()
 };
-*/
+
 

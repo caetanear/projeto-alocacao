@@ -1,7 +1,7 @@
-var botaoEnter = document.getElementById("#barra-enter");
+var botaoEnter = document.querySelector('table');
 
-var input = document.getele("#buscar-palavra");
+var palavraBuscar = input.value;
 
 botaoEnter.addEventListener('click', function(event)){
-    var buscar = input.search('');
+    var buscar = palavraBuscar.search('');
 }
