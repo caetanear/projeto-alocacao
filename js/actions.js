@@ -1,4 +1,4 @@
-const itemsArray = localStorage.getItem('adicionar') ? JSON.parse(localStorage.getItem('adicionar')) : [];
+/*const itemsArray = localStorage.getItem('adicionar') ? JSON.parse(localStorage.getItem('adicionar')) : [];
 
 document.querySelector("#adicionar").addEventListener("click", () => {
   const item = document.querySelector("#adicionar")
@@ -92,6 +92,20 @@ function updateItem(text, i){
 
 window.onload = function() {
   displayItems()
-};
+};*/
 
+
+/*var botaoAdicionar = document.querySelector("#adicionar");
+botaoAdicionar.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    var form = document.querySelector("#form-adiciona");
+
+    var iconsAcoes = document.getElementById('info-acoes');
+
+    iconsAcoes.innerHTML = `<div class="acoes_excluir"><button class="button_excluir"><span class="material-symbols-outlined">delete</span></button></div><div class="acoes_editar"><button class="button_editar"><span class="material-symbols-outlined">edit_note</span></button></div>`;
+
+
+
+});*/
 

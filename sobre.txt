@@ -4,3 +4,4 @@ azul: #1D478C
 laranja: #EF8B2A
 fundo branco: #FFFFFF
  TOP RIGHT LEFT BOTTOM
+

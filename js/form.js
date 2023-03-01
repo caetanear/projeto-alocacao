@@ -6,6 +6,7 @@ botaoAdicionar.addEventListener("click", function (event) {
 
     var alocacao = obtemAlocacaoDoFormulario(form);
 
+
     // Método para enviar alocacao para backend via FETCH. LEMBRETE: ALTERAR URL PARA URL DO ENDPOINT
     fetch('https://localhost:5000/api/endpoint', {
         method: "POST",
